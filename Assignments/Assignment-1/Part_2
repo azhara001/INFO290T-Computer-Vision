@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Sep  4 13:59:59 2022
+
+@author: azhara001
+"""
+import json
+
+code_path = "a1-dolly-zoom.ipynb.txt"
+
+with open (code_path,"r") as file:
+    code = file.read()
+    
+json_code = json.loads(code)
+    
